@@ -1,5 +1,6 @@
 import React, { useState } from 'react';
-import { Link, CheckCircle, AlertCircle, RefreshCw } from 'lucide-react';
+
+import { TrendingUp, TrendingDown, AlertTriangle, Users, DollarSign, Clock, Shield, Zap, Database } from 'lucide-react';
 
 const LiveDataConnector = ({ apiBaseUrl, onSuccess }) => {
   const [sheetUrl, setSheetUrl] = useState('');
