@@ -4,3 +4,6 @@ pandas
 scikit-learn
 python-multipart
 joblib
+gspread
+google-auth
+oauth2client
