@@ -8,7 +8,7 @@ import TransactionList from './TransactionList';
 import Analytics from './Analytics';
 import LiveDataConnector from './LiveDataConnector';
 
-const API_BASE_URL = 'https://anamolyprocessing-production.up.railway.app';
+const API_BASE_URL = 'https://anomalyprocessing-production.up.railway.app/';
 
 function App() {
   const [activeTab, setActiveTab] = useState('dashboard');
