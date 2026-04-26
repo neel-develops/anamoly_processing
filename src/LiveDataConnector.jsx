@@ -1,6 +1,6 @@
 import React, { useState } from 'react';
 
-import { Link, CheckCircle, AlertCircle, RefreshCw } from 'lucide-react';
+import { Link2, CheckCircle, AlertCircle, RefreshCw } from 'lucide-react';
 
 const LiveDataConnector = ({ apiBaseUrl, onSuccess }) => {
   const [sheetUrl, setSheetUrl] = useState('');
@@ -60,7 +60,7 @@ const LiveDataConnector = ({ apiBaseUrl, onSuccess }) => {
         {/* Setup Card */}
         <div className="setup-card">
           <div className="setup-header">
-            <Link size={32} className="setup-icon" />
+            <Link2 size={32} className="setup-icon" />
             <h3>Connect Google Sheets</h3>
           </div>
 
@@ -111,7 +111,7 @@ const LiveDataConnector = ({ apiBaseUrl, onSuccess }) => {
               </>
             ) : (
               <>
-                <Link size={20} />
+                <Link2 size={20} />
                 Connect
               </>
             )}
@@ -157,7 +157,7 @@ const LiveDataConnector = ({ apiBaseUrl, onSuccess }) => {
             <p>Make your Google Sheet accessible:</p>
             <ol>
               <li>Click "Share" in the top right of Google Sheets</li>
-              <li>Change access to "Anyone with the link can view"</li>
+              <li>Change access to "Anyone with the Link2 can view"</li>
               <li>Or share with the service account email (if configured)</li>
             </ol>
           </div>
