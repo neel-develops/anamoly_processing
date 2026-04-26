@@ -17,8 +17,7 @@ import json
 # Local imports
 import sys
 sys.path.append('/home/claude/anomaly-detection-webapp/backend/app')
-
-from ml.anomaly_detector import AnomalyDetector, EnsembleDetector
+from anomaly_detector import AnomalyDetector, EnsembleDetector
 from data_pipeline.processor import CSVProcessor, GoogleSheetsConnector, DataWarehouse, DataValidator
 
 # Initialize FastAPI app
