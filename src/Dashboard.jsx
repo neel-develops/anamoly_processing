@@ -1,6 +1,6 @@
 import React, { useState, useEffect } from 'react';
-import { TrendingUp, TrendingDown, AlertTriangle, Users, DollarSign, Clock, Shield, Zap } from 'lucide-react';
 
+import { TrendingUp, TrendingDown, AlertTriangle, Users, DollarSign, Clock, Shield, Zap, Database } from 'lucide-react';
 const Dashboard = ({ stats, modelTrained, onTrainModel }) => {
   const [transactions, setTransactions] = useState([]);
   const [analysisResults, setAnalysisResults] = useState(null);
