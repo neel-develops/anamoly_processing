@@ -7,3 +7,4 @@ joblib
 gspread
 google-auth
 oauth2client
+aiofiles
