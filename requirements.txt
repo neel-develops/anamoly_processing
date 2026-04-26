@@ -8,3 +8,5 @@ gspread
 google-auth
 oauth2client
 aiofiles
+pyarrow
+fastparquet
