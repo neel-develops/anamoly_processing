@@ -1,5 +1,5 @@
 import React, { useState, useEffect } from 'react';
-import { Search, Filter, AlertTriangle, CheckCircle, Info, Eye } from 'lucide-react';
+import { TrendingUp, TrendingDown, AlertTriangle, Users, DollarSign, Clock, Shield, Zap, Database } from 'lucide-react';
 
 const TransactionList = ({ apiBaseUrl, modelTrained }) => {
   const [transactions, setTransactions] = useState([]);
