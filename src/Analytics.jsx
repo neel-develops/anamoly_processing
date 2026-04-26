@@ -1,6 +1,6 @@
 import React, { useState, useEffect } from 'react';
 
-import { TrendingUp, TrendingDown, AlertTriangle, Users, DollarSign, Clock, Shield, Zap, Database } from 'lucide-react';
+import { TrendingUp, TrendingDown, AlertTriangle, Users, DollarSign, Clock, Shield, Zap, Database, BarChart3 } from 'lucide-react';
 const Analytics = ({ stats, apiBaseUrl }) => {
   const [transactions, setTransactions] = useState([]);
   const [timeDistribution, setTimeDistribution] = useState([]);
